@@ -1,0 +1,50 @@
+body {
+      background-color: #D3D3D3;
+}
+article {
+    width: 960px;
+    margin: auto;
+    font-style: Verdana;
+    back
+}
+header {
+  border-bottom: 1px solid;
+}
+header p {
+  margin-bottom: 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0px; <!part 7, removing margin between title and the byline>
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+p, blockquote, ul, ol {
+    font-size: 18px;
+    line-height: 1.5em;
+    line-height: 150%;
+    color: #323232;
+    width: 70ch;
+}
+
+#facts {
+    margin: 1em 0em 1em 1em;
+    width: 55%;
+    border: 1px dashed;
+    float: right;
+}
+
+#facts > ul {
+    list-style-image: url("../img/cup.svg");
+    line-height: 1.5em;
+    padding-left: 1.5em;
+}
+
+#cover {
+  width: 960px;
+
+}

@@ -1,0 +1,13 @@
+1. Why do mobile phones usually ignore auto play on video elements?
+
+  Since it's likely that mobile phones will be using metered data to visit websites,
+  auto play has been disabled to save on data usage. 
+
+
+  2. What will the CSS snippet at the end of this section do if the visitor is browsing on a device with 320 x 568 resolution?
+There is no element with the id "logo", but if there was, that element wouldn't be visible and wouldn't take up any space on the webpage
+if the device had a defined width between 768px and 1024px.
+
+  3. Mention some of the advantages of having a single responsive website instead of dedicated versions like m.til.no for mobile and til.no for desktop?
+If someone was on the mobile site, and wanted to send a link to that site, the link would direct the users to a mobile site, even if they were on a desktop.
+Another advantage is that you don't have to have redundant code, you can just change the parts of the site that needs to be changed, using media queries.

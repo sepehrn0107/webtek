@@ -1,0 +1,4 @@
+
+1) You can get a 3D context by using "webgl" instead of "2d"
+2) context.fillStyle = "blue"; context.arc(x, y, radius, 0, , 2*Math.PI); context.fill();
+3) countries.filter(country => country.startsWith('N'));

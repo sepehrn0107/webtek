@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tax form</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <form action="http://folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post">
+          <h1> Tax Form </h1>
+          <label for ="name"> Real name: </label> <br>
+          <input name ="name" type ="text" required> <br>
+
+          <label for ="gender"> Gender: </label> <br>
+          <input type ="radio" name ="gender" value ="male" checked> Male
+          <input type ="radio" name ="gender" value ="female" checked> Female <br>
+
+          <label for ="e-mail"> E-mail: </label> <br>
+          <input type ="email" name ="e-mail" for ="e-mail" required> <br>
+
+          <label for ="birthday"> birthday: </label> <br>
+          <input type ="date" name ="birthday" for ="birthday" max="1988-12-01" required> <br>
+
+          <label for ="hero"> Hero: </label> <br>
+          <input for ="hero" type ="text" required> <br>
+
+          <label for ="spandex"> Do you wear spandex? </label> <br>
+          <input type ="radio" name ="spandex" value ="yes" checked> Yes
+          <input type ="radio" name ="spandex" value ="no" checked> No <br>
+
+          <label for ="strength"> Strength 1-10: </label> <br>
+          <input type ="number" name ="strength" min ="1" max ="10" required> <br>
+
+          <label for ="speed"> Speed 1-10: </label> <br>
+          <input type ="number" name ="speed" min ="1" max ="10" required> <br>
+
+          <label for ="intel"> intelligence 1-10: </label> <br>
+          <input type ="number" name ="intel" min ="1" max ="10" required> <br>
+
+          <label for ="income"> Income </label> <br>
+          <input type ="number" id ="income" name ="income" min ="0" onchange="calc_tax()" required> <br>
+
+          <label for ="wealth"> Wealth </label> <br>
+          <input type ="number" id ="wealth" name ="wealth" min ="0" onchange="calc_tax()" required> <br>
+
+          <label for ="tax"> Tax </label> <br>
+          <input type ="number"id ="tax" name ="tax" min ="0" disabled> <br>
+
+          <button type = "submit" >Submit</button>
+
+
+
+
+
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>

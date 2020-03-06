@@ -1,0 +1,38 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+}
+.wrapper {
+      position: fixed;
+      right:0;
+      bottom:0;
+      width: 100%;
+      background-color: grey;
+      color: black;
+      text-align: center;
+      font-size: 8px;
+
+}
+.list ul {
+  list-style-type:square;
+   }
+ul .one{
+  list-style-type:circle;
+
+}
+ul .two {
+  list-style-type: circle;
+}
+ .one li:nth-last-child(-n+2) {
+  color: green;
+}
+.two li:nth-last-child(-n+2) {
+ color: green;
+}
+
+
+
+
+/* Part 4 */
